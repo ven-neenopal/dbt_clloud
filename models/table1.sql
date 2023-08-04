@@ -10,7 +10,7 @@
         materialized='incremental'
     )
 }}
-SELECT count(*) FROM dbt_venkataprasad.data
+SELECT count(*) FROM dbt_prod.data
 /*
     Uncomment the line below to remove records with null `id` values
 */
