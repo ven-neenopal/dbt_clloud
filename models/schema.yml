@@ -1,0 +1,8 @@
+
+version: 2
+
+models:
+    - name: table1
+      description: "A starter dbt model"
+    - name: table2
+      description: "A starter dbt model"
