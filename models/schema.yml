@@ -6,3 +6,10 @@ models:
       description: "A starter dbt model"
     - name: table2
       description: "A starter dbt model"
+    - name: table3
+      columns:
+      - name: Index
+        tests:
+        - unique
+        - not null
+      description: "For testing"
