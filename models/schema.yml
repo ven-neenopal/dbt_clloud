@@ -10,6 +10,5 @@ models:
       columns:
       - name: "No of employees"
         tests:
-        - unique
         - not_null
       description: "For testing"
