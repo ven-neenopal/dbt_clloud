@@ -11,5 +11,5 @@ models:
       - name: Index
         tests:
         - unique
-        - not null
+        - not_null
       description: "For testing"
