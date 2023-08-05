@@ -8,7 +8,7 @@ models:
       description: "A starter dbt model"
     - name: table3
       columns:
-      - name: ""Index""
+      - name: "No of employees"
         tests:
         - unique
         - not_null
