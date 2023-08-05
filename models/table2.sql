@@ -3,7 +3,7 @@
 {{
     config(materialized='view')
 }}
-select "Country","Industry",Sum("Number_of_employees") as sum_emp
+select "Country","Industry",Sum("Numberofemployees") as sum_emp
 from dbt_prod.data
 group by "Country","Industry"
 order by "Country"
